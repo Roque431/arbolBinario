@@ -36,31 +36,7 @@ class BinaryTree {
             }
         }
     }
-
-    buscar(valor) {
-        // ... (código de búsqueda)
-    }
-
-    encontrarCoincidencias(...valores) {
-        const coincidencias = [];
-        for (const valor of valores) {
-            this.encontrarCoincidenciasRecursivo(this.raiz, valor, coincidencias);
-        }
-        return coincidencias;
-    }
-
-    encontrarCoincidenciasRecursivo(nodo, valor, coincidencias) {
-        if (nodo === null) {
-            return;
-        }
-
-        if (valor === nodo.valor) {
-            coincidencias.push(nodo.valor);
-        }
-
-        this.encontrarCoincidenciasRecursivo(nodo.izquierda, valor, coincidencias);
-        this.encontrarCoincidenciasRecursivo(nodo.derecha, valor, coincidencias);
-    }
+ 
 }
 
 // Ejemplo de uso
