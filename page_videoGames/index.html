@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/styles.css">
+    <link rel="icon" href="./img/cotrol.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./Category.html">
+    <title>Página de Videojuegos</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Bienvenido a la Cartelera de Videojuegos</h1>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#juegos">Juegos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                     <li class="dropdown">
+                    <div class="dropdown-content">
+                        <li><a href="./pages/Category.html">Categoria</a></li>
+                    </div>
+                </li>
+                </li>
+               
+                
+                    
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="inicio" class="container intro-section">
+        <h2>¡Explora la emoción del mundo de los videojuegos!</h2>
+        <p>Descubre los últimos lanzamientos y las experiencias más emocionantes.</p>
+        
+       
+        <div id="carouselContainer">
+            <div id="carouselContent">
+                <div class="carousel-item">
+                    <img src="./img/gran-turismo.jpg" alt="Gran Turismo " class="carousel-img">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/spiderman.jpg"alt="Spiderman" class="carousel-img">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/god-of-war-kratos.jpg" alt="God of War" class="carousel-img">
+                </div>
+            </div>
+            <button id="prevBtn">&lt;</button>
+            <button id="nextBtn">&gt;</button>
+        </div>
+    </section>
+
+    <section id="juegos" class="container games-section">
+        <article class="game-card">
+            <img src="./img/gears.jpg" alt="Gears">
+            <div class="game-info">
+                <h3>Gears</h3>
+                <p>Descripción del Juego 1.</p>
+            </div>
+        </article>
+
+        <article class="game-card">
+            <img src="./img/Halo.jpg" alt="Halo">
+            <div class="game-info">
+                <h3>Halo</h3>
+                <p>Descripción del Juego 2.</p>
+            </div>
+            
+        </article>
+        <article class="game-card">
+                <img src="./img/super-mario.jpg" alt="Super Mario">
+                <div class="game-info">
+                    <h3>Super Mario</h3>
+                    <p>Descripción del Juego 3.</p>
+                </div>
+        
+    </section>
+
+    <footer id="contacto" class="container contact-section">
+        <div class="background-image">
+            <img src="./img/FondoPacman.jpg" alt="Fondo">
+            <div class="content">
+                <h2>Contacto</h2>
+                <p class="main_footer">¡Contáctanos para obtener más información sobre nuestros juegos!</p>
+                <footer>
+                    <p>Email: info@carteleradevideojuegos.com</p>
+                    <p>Teléfono: 123-456-7890</p>
+                </footer>
+            </div>
+        </div>
+    </footer>
+    
+
+    <script src="./scripts/main.js"></script>
+</body>
+</html>
